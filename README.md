@@ -1,7 +1,8 @@
 # node-queuer
   [![npm version](https://img.shields.io/npm/v/node-queuer.svg?style=flat)](https://www.npmjs.com/package/node-queuer)
   [![Build Status](https://travis-ci.org/daysv/node-queuer.svg?branch=master)](https://travis-ci.org/daysv/node-queuer)
-  
+  [![codecov.io](https://codecov.io/github/daysv/node-queuer/coverage.svg?branch=master)](https://codecov.io/github/daysv/node-queuer?branch=master)
+  [![david-dm.org](https://david-dm.org/daysv/node-queuer.svg)](https://github.com/daysv/node-queuer)
 
 Queue of tasks in JavaScript
 
