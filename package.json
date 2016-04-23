@@ -1,0 +1,37 @@
+{
+  "name": "node-queuer",
+  "version": "1.0.0",
+  "description": "Queue of tasks in JavaScript",
+  "main": "dist.js",
+  "keywords": [
+    "queue",
+    "queuer",
+    "task"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daysv/node-queuer.git"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/webpack",
+    "mocha": "./node_modules/.bin/mocha --compilers js:babel-core/register",
+    "test": "npm run mocha",
+    "cover": "./node_modules/.bin/istanbul cover node_modules/mocha/bin/_mocha -- --compilers js:babel-core/register",
+    "codecov": "npm run cover && codecov"
+  },
+  "author": "sang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daysv/node-queuer/issues"
+  },
+  "homepage": "https://github.com/daysv/node-queuer#readme",
+  "devDependencies": {
+    "babel-core": "^6.7.7",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "codecov": "^1.0.1",
+    "istanbul": "^1.0.0-alpha.2",
+    "mocha": "^2.4.5",
+    "webpack": "^1.13.0"
+  }
+}

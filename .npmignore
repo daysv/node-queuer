@@ -1,0 +1,11 @@
+index.js
+webpack.config.js
+test.js
+.idea
+.git
+.gitignore
+.travis.yml
+coverage
+.npmignore
+node_modules
+npm-debug.log
