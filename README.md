@@ -1,17 +1,20 @@
 # node-queuer
+  [![npm version](https://img.shields.io/npm/v/node-queuer.svg?style=flat)](https://www.npmjs.com/package/node-queuer)
+  [![Build Status](https://travis-ci.org/daysv/node-queuer.svg?branch=master)](https://travis-ci.org/daysv/node-queuer)
+  
 
 Queue of tasks in JavaScript
 
 # Install
 ```bash
-$ npm i node-queue -save
+$ npm i node-queuer -save
 ```
 
 # Example
 ```js
-import Queue from 'node-queue'
+import Queue from 'node-queuer'
 // or
-var Queue = require('node-queue').default
+var Queue = require('node-queuer').default
 
 var queue = new Queue()
 

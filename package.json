@@ -1,6 +1,6 @@
 {
   "name": "node-queuer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Queue of tasks in JavaScript",
   "main": "dist.js",
   "keywords": [
