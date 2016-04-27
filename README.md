@@ -15,7 +15,7 @@ $ npm i node-queuer -save
 ```js
 import Queue from 'node-queuer'
 // or
-var Queue = require('node-queuer').default
+var Queue = require('node-queuer')
 
 var queue = new Queue()
 

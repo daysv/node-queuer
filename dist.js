@@ -121,6 +121,7 @@ module.exports =
 	}(_events.EventEmitter);
 
 	exports.default = Queue;
+	module.exports = exports['default'];
 
 /***/ },
 /* 1 */
